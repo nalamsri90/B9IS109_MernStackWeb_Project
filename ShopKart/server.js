@@ -31,7 +31,7 @@ app.use("/api/v1/seed", seedRoutes)
 
 //rest api
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to ecommerce app</h1>");
+  res.send("<h1>Welcome to Mern Stack eCommerce Web App</h1>");
 });
 
 //PORT
