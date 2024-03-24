@@ -24,3 +24,13 @@ const Layout = ({ children, title, description, keywords, author }) => {
       </div>
     );
   };
+
+  Layout.defaultProps = {
+    title: "ShopKart",
+    description: "A mern stack website",
+    keywords: "",
+    author: "Srikanth",
+  };
+  
+  export default Layout;
+  
