@@ -135,4 +135,17 @@ const Header = () => {
             <Badge count={cart?.length} showZero offset={[10, -5]}>
               Cart
             </Badge>
-          </NavLink>  
+          </NavLink>
+
+          </div>
+  </div>
+</nav>
+
+
+
+    </>
+  );
+};
+
+export default Header;
+  
