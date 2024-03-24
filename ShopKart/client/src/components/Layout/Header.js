@@ -131,4 +131,8 @@ const Header = () => {
           <SearchInput />
           </div>
         </ul>
-       
+        <NavLink to="/cart" className="mr-1">
+            <Badge count={cart?.length} showZero offset={[10, -5]}>
+              Cart
+            </Badge>
+          </NavLink>  
